@@ -321,45 +321,40 @@ drawboard();
 
 function anim()
 {
-	if (exploding.length>0)
-	{
-		var id=exploding[0];
-		exploding.splice(0,1);
-		var ncnt=idcnt[id]-neighbours[id].length;
-		if (ncnt>0)
+	do{
+		if (exploding.length>0)
 		{
-			var n=neighbours[id].length;
-			var src=piepos(id);
-			for (var i=0; i<n; i++)
+			var id=exploding[0];
+			exploding.splice(0,1);
+			var ncnt=idcnt[id]-neighbours[id].length;
+			if (ncnt>0)
 			{
-				var o=new Object();
-				o.src=src;
-				o.dest=piepos(neighbours[id][i]);
-				o.phase=0;
-				o.colour=idown[id];
-				o.destid=neighbours[id][i];
-				o.srcid=id;
-				splatanim.push(o);
+				var n=neighbours[id].length;
+				var src=piepos(id);
+				for (var i=0; i<n; i++)
+				{
+					var o=new Object();
+					o.src=src;
+					o.dest=piepos(neighbours[id][i]);
+					o.phase=0;
+					o.colour=idown[id];
+					o.destid=neighbours[id][i];
+					o.srcid=id;
+					splatanim.push(o);
+				}
+				set(id,ncnt,idown[id]);
 			}
-			set(id,ncnt,idown[id]);
 		}
-	}
-	for (var i=splatanim.length-1; i>=0; i-=1)
-	{
-		var o=splatanim[i];
-		splatanim.splice(i,1);
-		var did=o.destid;
-		idown[did]=idown[o.srcid];
-		set(did,idcnt[did]+1,idown[did]);
-	}
-	if (checkwin() || (splatanim.length==0 && exploding.length==0))
-	{
-		nextturn();
-	}
-	else
-	{
-		anim()
-	}
+		for (var i=splatanim.length-1; i>=0; i-=1)
+		{
+			var o=splatanim[i];
+			splatanim.splice(i,1);
+			var did=o.destid;
+			idown[did]=idown[o.srcid];
+			set(did,idcnt[did]+1,idown[did]);
+		}
+	}while(!checkwin() && (splatanim.length!=0 || exploding.length!=0));
+	nextturn();
 }
 
 function setborder(id,clr)
