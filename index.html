@@ -330,7 +330,6 @@ function anim()
 			set(id,ncnt,idown[id]);
 		}
 	}
-	nextturn();
 }
 
 function setborder(id,clr)
@@ -413,18 +412,6 @@ function GetObject(name)
 	}
 	return o;
 }
-function drawid(id)
-{
-	for (var y=0; y<gridh; y++)
-	{
-		for (var x=0; x<gridw; x++)
-		{
-			var z=x+y*gridw;
-			if (gridid[z]==id)
-				drawcell(x,y);
-		}
-	}
-}
 
 function set(id,val,t)
 {
@@ -432,7 +419,6 @@ function set(id,val,t)
 	idown[id]=t;
 	var c=val;
 	var cmax=neighbours[id].length;
-	drawid(id);
 	if (c>cmax)
 	{
 		for (var i=0; i<exploding.length; i++)
@@ -445,6 +431,14 @@ function doclk(id)
 {
 	nmoves++;
 	set(id,idcnt[id]+1,turn);
+	anim();
+	for (var y=0; y<gridh; y++)
+	{
+		for (var x=0; x<gridw; x++)
+		{
+			drawcell(x,y);
+		}
+	}
 	setborder(previousid,"#000");
 	if(turn == E_BLUE)
 	{
@@ -455,7 +449,7 @@ function doclk(id)
 		setborder(id, "#0FF");
 	}
 	previousid=id;
-	anim();
+	nextturn();
 }
 
 function clk(id)
