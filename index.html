@@ -12,7 +12,6 @@ var canvas=null;
 var tmpcanvas=null;
 var tmpctx=null;
 var cwid=0,chgt=0;
-var splatanim=new Array();
 
 tmpcanvas=document.createElement('canvas');
 var t=tmpcanvas.getContext("2d");
@@ -182,13 +181,6 @@ var colourcode=["#0000FF","#FF0000"];
 var piecolour=["#0000B0","#B00000"];
 var turn=E_NONE;
 var twoplayergame=false;
-//nextturn();
-
-function playgame()
-{
-	nmoves=0;
-	nextturn();
-}
 
 var exploding=new Array();
 var previousid=-1;
@@ -321,39 +313,23 @@ drawboard();
 
 function anim()
 {
-	do{
-		if (exploding.length>0)
+	while(!checkwin() && exploding.length!=0)
+	{
+		var id=exploding[0];
+		exploding.splice(0,1);
+		var ncnt=idcnt[id]-neighbours[id].length;
+		if (ncnt>0)
 		{
-			var id=exploding[0];
-			exploding.splice(0,1);
-			var ncnt=idcnt[id]-neighbours[id].length;
-			if (ncnt>0)
+			var n=neighbours[id].length;
+			for (var i=0; i<n; i++)
 			{
-				var n=neighbours[id].length;
-				var src=piepos(id);
-				for (var i=0; i<n; i++)
-				{
-					var o=new Object();
-					o.src=src;
-					o.dest=piepos(neighbours[id][i]);
-					o.phase=0;
-					o.colour=idown[id];
-					o.destid=neighbours[id][i];
-					o.srcid=id;
-					splatanim.push(o);
-				}
-				set(id,ncnt,idown[id]);
+				var did=neighbours[id][i];
+				idown[did]=idown[id];
+				set(did,idcnt[did]+1,idown[did]);
 			}
+			set(id,ncnt,idown[id]);
 		}
-		for (var i=splatanim.length-1; i>=0; i-=1)
-		{
-			var o=splatanim[i];
-			splatanim.splice(i,1);
-			var did=o.destid;
-			idown[did]=idown[o.srcid];
-			set(did,idcnt[did]+1,idown[did]);
-		}
-	}while(!checkwin() && (splatanim.length!=0 || exploding.length!=0));
+	}
 	nextturn();
 }
 
@@ -379,7 +355,8 @@ function setplayers(np)
 {
 	twoplayergame=(np==2);
 	turn=Math.random()>0.5?E_BLUE:E_RED;
-	playgame();
+	nmoves=0;
+	nextturn();
 }
 
 function checkwin()
@@ -436,20 +413,6 @@ function GetObject(name)
 	}
 	return o;
 }
-function piepos(id)
-{
-	for (var y=0; y<gridh; y++)
-	{
-		for (var x=0; x<gridw; x++)
-		{
-			var z=x+y*gridw;
-			if (gridid[z]==id && capacity[z]>0)
-				return {x:x, y:y};
-		}
-	}
-	return null;
-}
-
 function drawid(id)
 {
 	for (var y=0; y<gridh; y++)
@@ -460,38 +423,6 @@ function drawid(id)
 			if (gridid[z]==id)
 				drawcell(x,y);
 		}
-	}
-}
-
-function explode(t)
-{
-	var n=exploding.length;
-	var nx=new Array();
-	for (var i=0; i<n; i++)
-		nx[i]=exploding[i];
-	exploding=new Array();
-	for (var j=0; j<n; j++)
-	{
-		var id=nx[j];
-		var ncnt=idcnt[id]-neighbours[id].length;
-		if (ncnt>0)
-		{
-			set(id,ncnt,t);
-			for (var i=0; i<neighbours[id].length; i++)
-			{
-				var nn=neighbours[id][i];
-				idown[nn]=t;
-				set(nn,idcnt[nn]+1,t);
-			}
-		}
-	}
-	if (!checkwin() && exploding.length>0)
-	{
-		explode(t)
-	}
-	else
-	{
-		nextturn();
 	}
 }
 
@@ -639,9 +570,6 @@ function autoplay()
 	if (score[idx]>-500000)
 		doclk(idx);
 }
-
-
-playgame();
 -->
 </script>
 </html>
