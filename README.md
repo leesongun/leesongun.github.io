@@ -1,5 +1,10 @@
-# leesongun.github.io
-bammi with better ai<br>
-monte carlo tree search<br>
-using original ai as tree policy<br>
-original game at www.bammi.com
+## bammi with better ai
+* original game a bammi.com
+
+### ai techinques tried
+#### deep reinforcement learning + graph convolutional network
+* q-learning
+* A3C
+* policy gradient
+* PGQL
+#
