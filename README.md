@@ -1,5 +1,5 @@
 ## bammi with better ai
-* original game at bammi.com
+* original game at www.bammi.com
 ### ai techinques tried
 #### deep reinforcement learning + graph convolutional network
 * q-learning
