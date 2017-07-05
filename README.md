@@ -8,4 +8,4 @@
 * PGQL
 #### tree search
 * minimax search
-* monte carlo tree search with origian ai as tree policy
+* monte carlo tree search with original ai as tree policy
