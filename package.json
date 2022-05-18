@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "mathjax-full": "^3.2.0",
-    "yargs": "^17.5.1"
-  }
-}
