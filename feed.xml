@@ -1,2 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-04-26T16:42:52+00:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><author><name>GitHub User</name><email>your-email@domain.com</email></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2022-05-18T19:42:44+00:00</updated><id>/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><author><name>GitHub User</name><email>your-email@domain.com</email></author><entry><title type="html">why use TeX?</title><link href="/misc/2022/03/31/tex.html" rel="alternate" type="text/html" title="why use TeX?" /><published>2022-03-31T00:00:00+00:00</published><updated>2022-03-31T00:00:00+00:00</updated><id>/misc/2022/03/31/tex</id><content type="html" xml:base="/misc/2022/03/31/tex.html"><![CDATA[<p>\(x+y=x+y\) and we must \(F:Set\to Groups\) which is \(\alpha + \beta = \gamma\)</p>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><category term="misc" /><summary type="html"><![CDATA[\(x+y=x+y\) and we must \(F:Set\to Groups\) which is \(\alpha + \beta = \gamma\)]]></summary></entry><entry><title type="html">why live even?</title><link href="/misc/2022/02/22/twosday.html" rel="alternate" type="text/html" title="why live even?" /><published>2022-02-22T00:00:00+00:00</published><updated>2022-02-22T00:00:00+00:00</updated><id>/misc/2022/02/22/twosday</id><content type="html" xml:base="/misc/2022/02/22/twosday.html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.</p>
+
+<p>foci isogonal conjugate(of angle) lemma</p>
+
+<p>ABC triangle, P1P2, Q1Q2 isogonal conjugate pair. M(P1P2,Q1Q2), ABC one circle 
+=&gt; M(conic, conic) only relies on foci</p>
+
+<p>circle, 3conic, 4conic 
+10conic theorem,</p>
+
+<p>todo : projective invariant definition (“relying” on (1,+-i,0)) of confocalness</p>
+
+<p>완전사각형의 isogonal conjugate(why?)</p>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><category term="misc" /><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum. In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.]]></summary></entry><entry><title type="html">Most Upvoted Open Problems on Mathoverflow</title><link href="/2020/02/05/open.html" rel="alternate" type="text/html" title="Most Upvoted Open Problems on Mathoverflow" /><published>2020-02-05T00:00:00+00:00</published><updated>2020-02-05T00:00:00+00:00</updated><id>/2020/02/05/open</id><content type="html" xml:base="/2020/02/05/open.html"><![CDATA[<ol>
+  <li>Is there any polynomial \(f\in\mathbb{Q}[x,y]\) such that \(f:\mathbb{Q}\times\mathbb{Q}\rightarrow\mathbb{Q}\) is a bijection?</li>
+  <li>Is there any polynomial \(f\in\mathbb{Q}[x,y]\) such that \(f(\mathbb{Z} \times \mathbb{Z})=\mathbb{N}\)?</li>
+  <li>Let \(f\) and \(g\) be two continuous mappings from \([0,1]^n\) to itself, such that \(f\circ g=g\circ f\). Does there always exist \(x\in [0,1]^n\) such that \(f(x)=g(x)\)?</li>
+  <li>If \(2^x\) and \(3^x\) are integers, must \(x\) be as well?</li>
+  <li>Let \(P,Q\in\mathbb{R}_{\geq 0}[x]\) be two monic polynomials such that \(PQ\in\{0,1\}[x]\). Is it always the case that \(P\in\{0,1\}[x]\)?</li>
+</ol>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><summary type="html"><![CDATA[Is there any polynomial \(f\in\mathbb{Q}[x,y]\) such that \(f:\mathbb{Q}\times\mathbb{Q}\rightarrow\mathbb{Q}\) is a bijection? Is there any polynomial \(f\in\mathbb{Q}[x,y]\) such that \(f(\mathbb{Z} \times \mathbb{Z})=\mathbb{N}\)? Let \(f\) and \(g\) be two continuous mappings from \([0,1]^n\) to itself, such that \(f\circ g=g\circ f\). Does there always exist \(x\in [0,1]^n\) such that \(f(x)=g(x)\)? If \(2^x\) and \(3^x\) are integers, must \(x\) be as well? Let \(P,Q\in\mathbb{R}_{\geq 0}[x]\) be two monic polynomials such that \(PQ\in\{0,1\}[x]\). Is it always the case that \(P\in\{0,1\}[x]\)?]]></summary></entry><entry><title type="html">Simple Proof of the Butterfly Theorem</title><link href="/2020/01/18/butterfly.html" rel="alternate" type="text/html" title="Simple Proof of the Butterfly Theorem" /><published>2020-01-18T00:00:00+00:00</published><updated>2020-01-18T00:00:00+00:00</updated><id>/2020/01/18/butterfly</id><content type="html" xml:base="/2020/01/18/butterfly.html"><![CDATA[<p>I “discovered” a simple proof of the butterfly theorem in classical geometry in 2012 or so.</p>
+
+<h1 id="statement">Statement</h1>
+
+<p>Let M be the midpoint of a chord PQ of a conic, through which two other chords AB and CD are drawn; AD and BC intersect chord PQ at X and Y correspondingly. Then M is the midpoint of XY. <sup id="fnref:0" role="doc-noteref"><a href="#fn:0" class="footnote" rel="footnote">1</a></sup></p>
+
+<h1 id="proof">Proof</h1>
+<p>Let Y’ be a reflection of X through M. Then \((PXMQ)\bar{\bar{\wedge}}(PDBQ)\bar{\bar{\wedge}}(PMYQ)\bar{\wedge}(PRMQ)\). Therefore, Y’ is equal to Y.</p>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:0" role="doc-endnote">
+      <p>https://en.wikipedia.org/wiki/Butterfly_theorem <a href="#fnref:0" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><summary type="html"><![CDATA[I “discovered” a simple proof of the butterfly theorem in classical geometry in 2012 or so.]]></summary></entry><entry><title type="html">A Thought about Conics and Cubics</title><link href="/2020/01/18/cubics.html" rel="alternate" type="text/html" title="A Thought about Conics and Cubics" /><published>2020-01-18T00:00:00+00:00</published><updated>2020-01-18T00:00:00+00:00</updated><id>/2020/01/18/cubics</id><content type="html" xml:base="/2020/01/18/cubics.html"><![CDATA[<h1 id="cayleybacharach-theorem">Cayley–Bacharach Theorem</h1>
+
+<p>The Cayley-Bacharach theorem states that if two cubics in the projective plane meet in nine (different) points, then every cubic that passes through eight of them also passes through the ninth.<sup id="fnref:0" role="doc-noteref"><a href="#fn:0" class="footnote" rel="footnote">1</a></sup> The fundamental reason behind this is that polynomial rings over a field are Gorenstein.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">2</a></sup></p>
+
+<h1 id="three-conics-theorem">Three Conics Theorem<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">3</a></sup></h1>
+
+<p>The three conics theorem is a particular case of the Cayley-Bacharach theorem when each cubic is a union of a straight line and a conic. This viewpoint provides a high-level proof and establishes a clear relationship with Pascal’s theorem.</p>
+
+<h1 id="five-conics-theorem">Five Conics Theorem<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">4</a></sup></h1>
+
+<p>The five conics theorem is also straightforward. Using the naming from the paper, we prove that \(P_1Q_1, P_3Q_3,\) and \(IJ\) are concurrent, by the application of the three conics theorem to \(S_1, S_2, S\). Then we obtain the desired result using the converse three conics theorem to \(S_3, S_4, S\).</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:0" role="doc-endnote">
+      <p>Wikipedia, Cayley–Bacharach theorem. <a href="#fnref:0" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:1" role="doc-endnote">
+      <p>Eisenbud, David, Mark Green, and Joe Harris. “Cayley-Bacharach theorems and conjectures.” <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Weisstein, Eric W. “Three Conics Theorem.” From MathWorld–A Wolfram Web Resource. http://mathworld.wolfram.com/ThreeConicsTheorem.html <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>Tran Thu Le and Kien Trung Nguyen. “The Five Conics Problem.” <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><summary type="html"><![CDATA[Cayley–Bacharach Theorem]]></summary></entry><entry><title type="html">The Highest Rated Game Ever</title><link href="/2019/08/26/ai-baduk.html" rel="alternate" type="text/html" title="The Highest Rated Game Ever" /><published>2019-08-26T00:00:00+00:00</published><updated>2019-08-26T00:00:00+00:00</updated><id>/2019/08/26/ai-baduk</id><content type="html" xml:base="/2019/08/26/ai-baduk.html"><![CDATA[<p>There was a baduk engine competition recently, named <strong>2019 China Securities Cup World AI Open</strong>. The first three final games are listed below. They played two more matches after FineArt became the winner, but I won’t list them here.</p>
+
+<p><a href="https://kifu.io/view/Pqbom11EGGV7EowoQvjM">Game 1</a><br />
+<a href="https://kifu.io/view/KOzaCGEFMdBUFvCQkQrh">Game 2</a><br />
+<a href="https://kifu.io/view/L3VtyHRbu0EuUk1cQtYO">Game 3</a></p>]]></content><author><name>GitHub User</name><email>your-email@domain.com</email></author><summary type="html"><![CDATA[There was a baduk engine competition recently, named 2019 China Securities Cup World AI Open. The first three final games are listed below. They played two more matches after FineArt became the winner, but I won’t list them here.]]></summary></entry></feed>
